@@ -1,4 +1,4 @@
-library date_time_formater;
+library date_time_formatter;
 
 import 'package:intl/intl.dart';
 
