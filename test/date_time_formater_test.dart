@@ -1,4 +1,4 @@
-import 'package:date_time_formatter/date_time_formatter.dart';
+import 'package:date_and_time_formatter/date_time_formatter.dart';
 import 'package:flutter/foundation.dart';
 
 void main() {
