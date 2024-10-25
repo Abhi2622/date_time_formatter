@@ -1,16 +1,36 @@
-A Flutter package for formatting dates with various formats using the `intl` package.
+date_time_formatter
 
-## Installation
+date_time_formatter is a Flutter package that provides easy and flexible formatting for DateTime objects in various formats using the intl package.
 
-Add `date_time_formatter` to your `pubspec.yaml` file:
+Installation
+To add date_time_formatter to your project, include it in your pubspec.yaml file:
 
-import 'package:date_time_formatter/date_time_formater.dart';
+dependencies:
+date_time_formatter: latest_version
+
+
+Then, run:
+flutter pub get
+
+
+Usage
+
+After installation, import date_time_formatter in your Dart code:
+
+import 'package:date_time_formatter/date_time_formatter.dart';
 
 void main() {
 DateTime now = DateTime.now();
 
 print(now.toAppDateTime(DateFormatEnum.appDate));
-} // Example output: Aug 12, 2024
+// Example output: Aug 12, 2024
+}
 
 
-Formats dates and times using predefined patterns.
+DateTime now = DateTime.now();
+
+print(now.toAppDateTime(DateFormatEnum.dateMonthYear));    // Output: "12 Aug, 2024"
+print(now.toAppDateTime(DateFormatEnum.dateMonth));   // Output: "12 Aug"
+print(now.toAppDateTime(DateFormatEnum.dateOnly)); // Output: "12"
+
+
