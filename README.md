@@ -30,10 +30,10 @@ print(now.toAppDateTime(DateFormatEnum.appDate));
 
 ## Example:
 
-`DateTime now = DateTime.now();
+_`DateTime now = DateTime.now();
 
-``print(now.toAppDateTime(DateFormatEnum.dateMonthYear));    // Output: "12 Aug, 2024"
+print(now.toAppDateTime(DateFormatEnum.dateMonthYear));    // Output: "12 Aug, 2024"
 print(now.toAppDateTime(DateFormatEnum.dateMonth));   // Output: "12 Aug"
-print(now.toAppDateTime(DateFormatEnum.dateOnly)); // Output: "12"```
+print(now.toAppDateTime(DateFormatEnum.dateOnly)); // Output: "12"`_
 
 
