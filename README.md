@@ -18,22 +18,21 @@ flutter pub get
 
 After installation, import date_time_formatter in your Dart code:
 
- `import 'package:date_time_formatter/date_time_formatter.dart';
+ import 'package:date_time_formatter/date_time_formatter.dart';
 
  void main() {
  DateTime now = DateTime.now();
 
  print(now.toAppDateTime(DateFormatEnum.appDate));
  // Example output: Aug 12, 2024
- }`
+ }
 
 
 ## Example:
-
-`DateTime now = DateTime.now();
+ DateTime now = DateTime.now();
 
  print(now.toAppDateTime(DateFormatEnum.dateMonthYear));    // Output: "12 Aug, 2024"
  print(now.toAppDateTime(DateFormatEnum.dateMonth));   // Output: "12 Aug"
- print(now.toAppDateTime(DateFormatEnum.dateOnly)); // Output: "12"`
+ print(now.toAppDateTime(DateFormatEnum.dateOnly)); // Output: "12"
 
 

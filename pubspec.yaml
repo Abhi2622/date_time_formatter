@@ -1,6 +1,6 @@
 name: date_and_time_formatter
 description: "A package for formatting dates and time with various formats."
-version: 0.0.4
+version: 0.0.6
 homepage: https://github.com/Abhi2622/date_time_formatter
 
 environment:
